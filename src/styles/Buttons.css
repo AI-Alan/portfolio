@@ -21,7 +21,12 @@
     100% { box-shadow: 0px 0px 10px rgba(255, 117, 140, 0.3); }
 }
 
+.buttons {
+    position: relative;
+    z-index: 10; /* Ensure buttons are clickable */
+}
 /* Cyberpunk Button Style */
+
 .btn {
     display: inline-block;
     margin: 12px;
