@@ -1,0 +1,49 @@
+/* Floating Glow Effect - Smooth & Futuristic */
+@keyframes floatingGlow {
+    0% { transform: translateY(0px) rotate(0deg); opacity: 0.9; }
+    50% { transform: translateY(-10px) rotate(3deg) scale(1.05); opacity: 1; }
+    100% { transform: translateY(0px) rotate(-3deg); opacity: 0.9; }
+}
+
+/* Cyber Glitch Effect - Horizontal Line Jitters */
+@keyframes glitchEffect {
+    0% { text-shadow: 2px 0px #ff758c, -2px -1px #ff9966; transform: translate(0, 0); }
+    25% { text-shadow: -2px -2px #ff758c, 2px 1px #ff9966; transform: translate(-2px, 1px); }
+    50% { text-shadow: 3px 1px #ff758c, -1px -2px #ff9966; transform: translate(2px, -1px); }
+    75% { text-shadow: -2px -1px #ff758c, 1px 2px #ff9966; transform: translate(-1px, 2px); }
+    100% { text-shadow: 2px 0px #ff758c, -2px -1px #ff9966; transform: translate(0, 0); }
+}
+
+/* Glowing Pulse Effect - Subtle Cyber Glow */
+@keyframes neonGlow {
+    0% { box-shadow: 0px 0px 10px rgba(255, 117, 140, 0.3); }
+    50% { box-shadow: 0px 0px 25px rgba(255, 117, 140, 0.8); }
+    100% { box-shadow: 0px 0px 10px rgba(255, 117, 140, 0.3); }
+}
+
+/* Cyberpunk Button Style */
+.btn {
+    display: inline-block;
+    margin: 12px;
+    padding: 14px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    animation: neonGlow 3s infinite alternate, floatingGlow 6s infinite ease-in-out;
+}
+
+/* Button Hover - Cyber Glitch & Terminal Effect */
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.4);
+    animation: glitchEffect 0.2s infinite alternate;
+}
