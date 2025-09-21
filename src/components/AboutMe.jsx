@@ -42,7 +42,7 @@ const AboutMe = ({ background, changeBackground }) => {
         </p>
 
         <div className="resume-container">
-            <a href="https://drive.google.com/file/d/1RSWryqskGVSmOXQYGjHJvj1feokbFaSK/view?usp=sharing" 
+            <a href="https://www.overleaf.com/download/project/68ccfbb09af7a54cc17291e2/build/1996cc0ccea-7a81a7607867d516/output/output.pdf?compileGroup=standard&clsiserverid=clsi-reg-n2d-c-f-hvcc&enable_pdf_caching=true&popupDownload=true" 
                className="btn" 
                download>
                📄 Download My Resume
