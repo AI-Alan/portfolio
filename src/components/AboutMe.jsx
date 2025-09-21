@@ -18,7 +18,7 @@ const AboutMe = ({ background, changeBackground }) => {
            <h2>About Me</h2>
 
         <p>
-            I’m <strong>Aman Kumar Yadav</strong>, a <strong>2nd-year BTech student</strong> at <strong>NIT Srinagar</strong>,  
+            I’m <strong>Aman Kumar Yadav</strong>, a <strong>3rd-year BTech student</strong> at <strong>NIT Srinagar</strong>,  
             specializing in Information Technology. My passion lies in <strong>AI, Machine Learning, IoT, and Robotics</strong>,  
             where I explore cutting-edge technologies to solve real-world problems.
         </p>
