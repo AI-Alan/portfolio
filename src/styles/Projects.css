@@ -16,9 +16,20 @@
 }
 
 @keyframes gradientBG {
-    0% { background-position: 0% 50%; filter: brightness(1); }
-    50% { background-position: 100% 50%; filter: brightness(1.2); }
-    100% { background-position: 0% 50%; filter: brightness(1); }
+    0% {
+        background-position: 0% 50%;
+        filter: brightness(1);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        filter: brightness(1.2);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        filter: brightness(1);
+    }
 }
 
 /* Section Heading */
@@ -30,7 +41,10 @@
 }
 
 /* Project Category Sections */
-.python-projects, .iot-projects, .aiml-projects {
+.python-projects,
+.iot-projects,
+.aiml-projects,
+.ai-agents-projects {
     border-radius: 15px;
     margin-bottom: 40px;
     border: 2px solid white;
@@ -38,8 +52,17 @@
     animation: fadeInUp 1.2s ease-in-out forwards;
 }
 
-.iot-projects { box-shadow: 0 0 20px rgba(102, 230, 213, 0.6); }
-.aiml-projects { box-shadow: 0 0 20px rgba(124, 96, 228, 0.6); }
+.iot-projects {
+    box-shadow: 0 0 20px rgba(102, 230, 213, 0.6);
+}
+
+.aiml-projects {
+    box-shadow: 0 0 20px rgba(124, 96, 228, 0.6);
+}
+
+.ai-agents-projects {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+}
 
 /* Grid Container */
 .projects-container {
@@ -52,9 +75,18 @@
 
 /* Neon Glow Animation */
 @keyframes neonGlow {
-    0% { box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3); }
-    50% { box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.8); transform: scale(1.02); }
-    100% { box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3); }
+    0% {
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+    }
+
+    50% {
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.8);
+        transform: scale(1.02);
+    }
+
+    100% {
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+    }
 }
 
 /* Project Card */
@@ -78,13 +110,27 @@
 
 /* Smooth Fade-In Animation */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Project Title */
